@@ -1,0 +1,39 @@
+:root {
+    /* font-size */
+    --fs-sm: 18px;
+    --fs-md: 22px;
+    --fs-lg: 48px;
+
+    /* font family */
+    --font-primary: "poppins", sans-serif;
+
+    /* color */
+    --color-white: #FFFFFF;
+
+    /* opacity */
+    --opacity-70: 70%;
+}
+
+.font-sm {
+    font-size: var(--fs-sm);
+}
+
+.font-md {
+    font-size: var(--fs-md);
+}
+
+.font-lg {
+    font-size: var(--fs-lg)
+}
+
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.opacity-70 {
+    opacity: var(--opacity-70);
+}
